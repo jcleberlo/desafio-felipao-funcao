@@ -3,7 +3,7 @@ let vitorias = 0
 let derrotas = 0
   
 while (i < 150) {
-    let saldo = calcularNivel (vitorias , derrotas)
+    calcularNivel (vitorias , derrotas)
     
     function calcularNivel (vit , der) {
         let resultado = vit - der
