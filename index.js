@@ -7,8 +7,7 @@ while (i < 150) {
     
     function calcularNivel (vit , der) {
         let resultado = vit - der
-        let nivel = "Ferro"
-        
+                
         if (resultado < 11) {
             nivel = "Ferro"
             console.log ("O herói tem saldo de " + resultado + " vitórias e está no nível " + nivel + ".")
